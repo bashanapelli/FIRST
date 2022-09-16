@@ -19,7 +19,7 @@ set workspace=%cd%
 cd C:\\Program Files\\IBM\\ACE\\11.0.0.18\\server\\bin\\
 call .\\mqsiprofile.cmd
 cd %workspace%
-mqsideploy test -e RAHUL -a XTOJ.bar
+mqsideploy test -e RAHUL -a XMLTOJSON.bar
 
 '''
 
