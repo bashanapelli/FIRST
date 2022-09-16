@@ -6,7 +6,7 @@ pipeline {
         steps {
         bat label: '', script: '''
 echo off
-set projectName=XTOJ
+set projectName=XMLTOJSON
 "C:\\Program Files\\IBM\\ACE\\11.0.0.18\\tools\\mqsicreatebar.exe" -data . -b %projectName%.bar -a %projectName% -cleanBuild
 '''
 }
@@ -23,7 +23,7 @@ mqsideploy test -e RAHUL -a XTOJ.bar
 
 '''
 
-archiveArtifacts 'XTOJ.bar'
+archiveArtifacts 'XMLTOJSON.bar'
 }
  }
    }
